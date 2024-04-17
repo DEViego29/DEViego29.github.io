@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="" />
+    <title>Logo trajes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/dd25a62790.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- pasos:
+      1: reestructurar la pagina web (grid-flexbox)
+      2: ingresar contenido de la pagina
+
+      3: interaccion de la pagina web 
+      4: rendeirazar de mejor manera la pagina pesa mucho   
+    -->
+
+    <!-- pasos hoy
+       agregar el contenido de cada stickynote
+
+    -->
+
+    <!-- barra de navegacion -->
+    <nav class="nav">
+      <a href="#" class="nav__logo">LOGO</a>
+      <button onclick="mostrarBarra()" type="button" class="nav__menu">
+        MENU
+      </button>
+      <div class="sidebar">
+        <img
+          onclick="ocultarBarra()"
+          src="images/x-close.svg"
+          alt=""
+          class="botonSalir"
+        />
+        <a href="#inicio">inicio</a>
+        <a href="#productos">productos</a>
+        <a href="#regiones">regiones</a>
+        <a href="#tiendas">tiendas</a>
+        <a href="#footer">contacto</a>
+      </div>
+      <div class="nav__rd">
+        <a href="#inicio">inicio</a>
+        <a href="#productos">productos</a>
+        <a href="#regiones">regiones</a>
+        <a href="#tiendas">tiendas</a>
+        <a href="#footer">contacto</a>
+      </div>
+    </nav>
+
+    <!-- inicio -->
+    <section id="inicio">
+      <section class="inicio__contenido">
+        <main class="main">
+          <h1 class="main__titulo">LOGO</h1>
+          <p class="main__parrafo">
+            unidos podemos hacer grandes cosas, por eso en (logo) tenemos todos
+            los trajes disponibles de nuestro amado Perú las fiestas nos esperan!
+          </p>
+        </main>
+        <div class="redes">
+          <a href="#" class="redes__enlace">INSTRAGRAM</a>
+          <a href="#" class="redes__enlace">LINKEDIN</a>
+          <a href="#" class="redes__enlace">FACEBOOK</a>
+          <a href="#" class="redes__enlace">TWITER</a>
+        </div>
+      </section>
+      <section class="inicio__imagenes">
+        
+        <div class="slide">
+          <div><img src="images/fondo-2.jpg" alt="">
+            <div><p>Selva</p></div>
+          </div>
+        <div><img src="images/fondo.jpg" alt="">
+          <div><p>Sierra</p></div>
+        </div>
+        <div><img src="images/fondo-3.jpg" alt="">
+          <div><p>Costa</p></div>
+        </div>
+        <div><img src="images/Foto-4-1.png" alt="">
+          <div><p>Trajes</p></div>
+        </div>
+        </div>
+        <div class="slide">
+          <div><img src="images/fondo-2.jpg" alt="">
+            <div><p>Selva</p></div>
+          </div>
+        <div><img src="images/fondo.jpg" alt="">
+          <div><p>Sierra</p></div>
+        </div>
+        <div><img src="images/fondo-3.jpg" alt="">
+          <div><p>Costa</p></div>
+        </div>
+        <div><img src="images/Foto-4-1.png" alt="">
+          <div><p>Trajes</p></div>
+        </div>
+        </div>
+        
+        
+      </section>
+      <h3></h3>
+    </section>
+
+    <div class="stickynote1   stickynote">
+      <img onclick="ocultarTarjeta()" src="images/X-close.svg" alt="" class="img__close">
+      <img src="images/dance-1.png" alt="" class="img-danza1" />
+      <section>
+        <div class="descripcion">
+          <h2>Descripcion</h2>
+          <p>Qapac Negro, cuya traducción directa del quechua significa “negro rico”, es una danza colectiva mestiza creada en la época republicana. Sus personajes representan al esclavo negro y la esclavitud que vivió en la época colonial, cuyos cantos son los sufrimientos expresados a la virgen y a la vez su devoción a ella.</p>
+        </div>
+        
+        <div class="historia">
+          <h2>Historia</h2>
+          <p>Se dice que los antiguos esclavos negros, traídos de la costa y Bolivia, fueron a trabajar a Paucartambo en las minas de plata y oro y que algunos llevaron consigo la adoración que tenían por la Virgen del Carmen de Lima.</p>
+        </div>
+  
+        <div class="personajes">
+          <h2>Personajes</h2>
+          <p>La danza está conformada por un rey negro, un par de niños y dos filas de soldados negros posicionados en paralelo y al comando de sus respectivos capitanes. La danza se divide entre los danzantes, siendo unos los que recitan sus cantos, y el grupo instrumental (arpa, quena, violín, acordeón, bombo o batería) para el tema musical.</p>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="stickynote2   stickynote">
+      <img onclick=ocultarTarjeta2() src="images/X-close.svg" alt="" class="img__close">
+      <img src="images/Foto-2-1.png" alt="" class="img-danza2" />
+      <section>
+        <div class="descripcion">
+          <h2>Descripcion</h2>
+          <p>La contradanza se trata de una danza agrícola, en donde el caporal de la comparsa introduce a los otros danzantes en lo que se refiere a las tareas del campo. Sin embargo, también puede hacer referencia a una parodia a lo que fuesen las danzas de salón bailadas por las élites españolas por aquellos tiempos de la colonia. Esto último cobra mucho sentido considerando el nombre de “contra-danza”.</p>
+        </div>
+        
+        <div class="historia">
+          <h2>Historia</h2>
+          <p>La Contradanza tiene toda una historia de triunfos y sorpresas, pues han ganado premios como el Concurso Departamental de Danzas Folclóricas en 1968 y el festival del Inti Raymi en 1991. Además, su comparsa fue la primera en hacerse acreedora de un local propio en el pueblo y la primera en haberse institucionalizado, convirtiéndose en una asociación con personería jurídica inscrita en el Instituto Nacional de Cultura (1989).</p>
+        </div>
+  
+        <div class="personajes">
+          <h2>Personajes</h2>
+          <p>En la Contradanza participan personajes como el machu (caporal), danzantes que llevan una máscara de malla metálica, y un equipo musical conformado por un violín, un acordeón, un bombo (o batería) y quenas</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="stickynote3 stickynote ">
+      <img onclick="ocultarTarjeta3()" src="images/X-close.svg" alt="" class="img__close">
+      <img src="images/Foto-3-1 (1).png" alt="" class="img-danza3" />
+      <section>
+        <div class="descripcion">
+          <h2>Descripcion</h2>
+          <p>La danza Wallata representa la el cortejo de las aves wallatas (machos) a las wachachas (hembras) a través de la personalización de sus movimientos en forma de coreografía. Los danzantes toman como inspiración todo lo relacionado al ave para realizar dicha coreografía; gritos, movimientos, conducta, apareamiento y todo aquello que demuestre la dominancia del macho. Asimismo, las mujeres realizarían movimientos elegantes demostrando coqueteos..</p>
+        </div>
+        
+        <div class="historia">
+          <h2>Historia</h2>
+          <p>El origen de la danza se ve íntimamente ligado al hombre de campo, el cual está relacionado a la naturaleza (flora y fauna) que lo rodea. En dicha fauna se encuentran las wallatas, aves palmípedas que viven en las qochas y totorales cercanos a estas comunidades.</p>
+        </div>
+  
+        <div class="personajes">
+          <h2>Personajes</h2>
+          <p>Los danzantes se dividen en hombres y mujeres que representarán el coqueteo del ave wallata. Los varones estarán vestidos con un pantalón corto, manguetas blancas, un pequeño poncho color rojo, un chullo, una ojota y una montera circular. Las mujeres tendrán una pollera negra con una franja de color rojo, una minifalda o ukhuna, chamarra roja, montera circular, ojota y una lliclla.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="stickynote4   stickynote">
+      <img onclick="ocultarTarjeta4()" src="images/X-close.svg" alt="" class="img__close">
+      <img src="images/Foto-4-1.png" alt="" class="img-danza4" />
+      <section>
+        <div class="descripcion">
+          <h2>Descripcion</h2>
+          <p>La danza Cholo Qorilazo representa la algarabía de los pobladores de la zona alto andina de la región de Cusco, siendo esta la provincia de Chumbivilcas, lugar donde se originaría esta hermosa danza. Además, también simboliza la alegría que el cholo qorilazo siente al tener a su lado a la mujer que siempre lo acompaña y a su fiel caballo.</p>
+        </div>
+        
+        <div class="historia">
+          <h2>Historia</h2>
+          <p>La palabra “Qorilazo” viene de la unión de “Qori”, que significa oro o dorado del quechua, y de “lazo”, que significa exactamente lo mismo al ser un término español. Entonces, la danza en sí trataría sobre el “cholo con lazo de oro”, lo cual se refiere a la unión de los habitantes de estos lugares con sus quehaceres y pasatiempos.</p>
+        </div>
+  
+        <div class="personajes">
+          <h2>Personajes</h2>
+          <p>La danza consiste en un grupo de varones y otro de mujeres, acompañados por instrumentos de cuerda como la guitarra, el charango y la mandolina.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="stickynote5 stickynote ">
+      <img onclick="ocultarTarjeta5()" src="images/X-close.svg" alt="" class="img__close">
+      <img src="images/Foto-5.png" alt="" class="img-danza5" />
+      <section>
+        <div class="descripcion">
+          <h2>Descripcion</h2>
+          <p>La danza Carnaval Cusqueño, cuyo nombre también comparte con la misma festividad, es una de las más populares de Cusco, pues cuenta con unos movimientos hermosos que realzan la elegancia y el ritmo representado por jóvenes enamorados.</p>
+        </div>
+        
+        <div class="historia">
+          <h2>Historia</h2>
+          <p>Se dice que los antiguos esclavos negros, traídos de la costa y Bolivia, fueron a trabajar a Paucartambo en las minas de plata y oro y que algunos llevaron consigo la adoración que tenían por la Virgen del Carmen de Lima.</p>
+        </div>
+  
+        <div class="personajes">
+          <h2>Personajes</h2>
+          <p>Como ya se hizo mención, en esta danza participan grupos de mujeres y varones jóvenes. La vestimenta de las mujeres comprende: faldas brillantes mestizas, blusa blanca, sombreros blancos y altos, trenzas en el cabello y pañuelo blanco. En el vestuario de los varones se puede apreciar: camisa blanca, pañuelo blanco, sombrero negro, pantalón y chaleco negro, zapatos negros y una chalina blanca. Ambos estarán llenos de serpentina y harina en sus rostros.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="stickynote6   stickynote">
+      <img onclick="ocultarTarjeta6()" src="images/X-close.svg" alt="" class="img__close">
+      <img src="images/Foto-5.png" alt="" class="img-danza6" />
+      <section>
+        <div class="descripcion">
+          <h2>Descripcion</h2>
+          <p>Qapac Negro, cuya traducción directa del quechua significa “negro rico”, es una danza colectiva mestiza creada en la época republicana. Sus personajes representan al esclavo negro y la esclavitud que vivió en la época colonial, cuyos cantos son los sufrimientos expresados a la virgen y a la vez su devoción a ella.</p>
+        </div>
+        
+        <div class="historia">
+          <h2>Historia</h2>
+          <p>Se dice que los antiguos esclavos negros, traídos de la costa y Bolivia, fueron a trabajar a Paucartambo en las minas de plata y oro y que algunos llevaron consigo la adoración que tenían por la Virgen del Carmen de Lima.</p>
+        </div>
+  
+        <div class="personajes">
+          <h2>Personajes</h2>
+          <p>La danza está conformada por un rey negro, un par de niños y dos filas de soldados negros posicionados en paralelo y al comando de sus respectivos capitanes. La danza se divide entre los danzantes, siendo unos los que recitan sus cantos, y el grupo instrumental (arpa, quena, violín, acordeón, bombo o batería) para el tema musical.</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- productos -->
+    <section id="productos">
+      <h2>Algunos trajes</h2>
+
+      <div class="producto danza1">
+        <img src="images/dance-1.png" alt="" class="img-danza1" />
+        <section>
+          <div class="producto__descripcion">
+            <span>(1959-2024)</span>
+            <p>"Negro rico"</p>
+            <h2>Qhapaq Negro</h2>
+            <button onclick="mostrartDanza1()">SABER MAS...</button>
+          </div>
+          <footer class="producto__info">
+            <span>01</span>
+            <p>informacion</p>
+          </footer>
+        </section>
+      </div>
+      <div class="producto danza2">
+        <img src="images/Foto-2-1.png" alt="" />
+        <section>
+          <div class="producto__descripcion">
+            <span>(1551-2024)</span>
+            <p>"Mañana nos burlamos del español"</p>
+            <h2>Contradanza</h2>
+            <button onclick= mostrarDanza2() >SABER MAS...</button>
+          </div>
+          <footer class="producto__info">
+            <span>02</span>
+            <p>informacion</p>
+          </footer>
+        </section>
+      </div>
+      <div class="producto danza3">
+        <img src="images/Foto-3-1.png" alt="" />
+        <section>
+          <div class="producto__descripcion">
+            <span>(1900-2024)</span>
+            <p>"el cortejo del macho hacia la hembra"</p>
+            <h2>Wallata</h2>
+            <button onclick=mostrartDanza3()>SABER MAS...</button>
+          </div>
+          <footer class="producto__info">
+            <span>03</span>
+            <p>informacion</p>
+          </footer>
+        </section>
+      </div>
+      <div class="producto danza4">
+        <img src="images/Foto-4-1.png" alt="" />
+        <section>
+          <div class="producto__descripcion">
+            <span>Nn-2024</span>
+            <p>"la felicidad abunda en los Gorilazos"</p>
+            <h2>Cholo Qorilazo</h2>
+            <button onclick=mostrartDanza4()>SABER MAS...</button>
+          </div>
+          <footer class="producto__info">
+            <span>04</span>
+            <p>informacion</p>
+          </footer>
+        </section>
+      </div>
+      <div class="producto danza5">
+        <img src="images/Foto-5.png" alt="" />
+        <section>
+          <div class="producto__descripcion">
+            <span>(Nn-2024)</span>
+            <p>"Hoy si me enamoro"</p>
+            <h2>Carnaval Cusqueño</h2>
+            <button onclick=mostrartDanza5()>SABER MAS...</button>
+          </div>
+          <footer class="producto__info">
+            <span>05</span>
+            <p>informacion</p>
+          </footer>
+        </section>
+      </div>
+      <div class="producto danza6">
+        <img src="images/Foto-5.png" alt="" />
+        <section>
+          <div class="producto__descripcion">
+            <span>(Nn-2024)</span>
+            <p>"Hoy si me enamoro"</p>
+            <h2>Carnaval Arequipeño</h2>
+            <button onclick=mostrartDanza6()>SABER MAS...</button>
+          </div>
+          <footer class="producto__info">
+            <span>05</span>
+            <p>informacion</p>
+          </footer>
+        </section>
+      </div>
+    </section>
+
+    <!-- regiones -->
+    <section id="regiones">
+      <h2>Más regiones</h2>
+      <section class="region sierra">
+        <div>
+          <h3>Sierra</h3>
+          <a href="#"><img src="images/arrow-wt.svg" alt="" /></a>
+        </div>
+      </section>
+      <section class="region costa">
+        <div>
+          <h3>Costa</h3>
+          <a href="#"><img src="images/arrow-wt.svg" alt="" /></a>
+        </div>
+      </section>
+      <section class="region selva">
+        <div>
+          <h3>Selva</h3>
+          <a href="#"><img src="images/arrow-wt.svg" alt="" /></a>
+        </div>
+      </section>
+    </section>
+
+    <!-- tiendas -->
+    <section id="tiendas">
+      <h2 class="tiendas__titulo">Tiendas</h2>
+      <div class="tiendas__locales">
+        <div>
+          <span>01</span>
+          <a href="#"><h3>Sicuani-Cusco</h3></a>
+        </div>
+        <div>
+          <span>02</span>
+          <a href="#"><h3>Arequipa</h3></a>
+        </div>
+        <div>
+          <span>03</span>
+          <a href="#"><h3>Lima</h3></a>
+        </div>
+        <div>
+          <span>04</span>
+          <a href="#"><h3>Lima</h3></a>
+        </div>
+        <div>
+          <span>05</span>
+          <a href="#"><h3>Muy pronto Cusco...</h3></a>
+        </div>
+      </div>
+      <div class="tiendas__texto">
+        <p class="tiendas__info">
+          ES HORA DE FIESTA! NO OLVIDES DE TUS VESIMENTAS ADQUIERELAS AL PRECIO
+          MAS COMODO Y CON MUY BUENA CALIDAD
+        </p>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer__inicio">
+        <h2>Puedes alquilar trajes ahora mismo!</h2>
+        <button>Contacto <img src="images/arrow-wt.svg" alt="" /></button>
+      </div>
+
+      <div class="footer__contactoBloque">
+        <div class="footer__contacto">
+          <ul>
+            <li>
+              <a href="#"><h3>Sicuani-Cusco</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>Arequipa</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>Lima</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>Lima</h3></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>*Numero</li>
+            <li>*Numero</li>
+            <li>*Numero</li>
+            <li>*Numero</li>
+          </ul>
+        </div>
+        <div class="footer__contacto">
+          <ul>
+            <li>
+              <a href="#"><h3>INSTAGRAM</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>LINKEDIN</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>FACEBOOK</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>TWITER</h3></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>redes sociales</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__logo">
+        <h2>LOGO</h2>
+      </div>
+    </footer>
+
+    <script src="JS/script.js" defer>
+    </script>
+  </body>
+</html>
